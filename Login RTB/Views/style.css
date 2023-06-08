@@ -1,0 +1,132 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background: rgb(22, 83, 169);
+   color: #777070;
+}
+
+
+img{
+   width: 100px;
+}
+
+.wrapper{
+   background: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border-radius: 10px;
+   border: none;
+   padding: 30px;
+   max-width: 400px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 550px;
+}
+
+
+
+.wrapper .content{
+   margin: 20px 0;
+}
+
+.content nav{
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.content p{
+   color: #333;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+h3{
+   color: rgb(22, 83, 169);
+}
+
+.check{
+   margin-right: 30px;
+   margin-top: 10px;
+   margin-bottom: 15px;
+}
+
+form{
+   width: 98%;
+}
+
+form .field{
+   height: 45px;
+   width: 100%;
+   margin-bottom: 55px;
+}
+
+form .field input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   padding: 0 15px;
+   outline: none;
+   font-size: 15px;
+}
+
+form .btn{
+   height: 30px;
+   width: 140px;
+   margin: 15px 0px 10px 100px;
+}
+
+form .btn input{
+   background-color: rgb(22, 83, 169);
+   color: #fff;
+   font-size: 15px;
+   font-weight: 500;
+   padding: 0;
+   cursor: pointer;
+}
+
+form input:active{
+   border: 1px solid rgb(22, 83, 169);
+}
+
+.wrapper .text{
+   margin-top: 5px;
+   margin-left: 90px;
+}
+
+.field .pass{
+   margin-left: 210px;
+   color: rgb(22, 83, 169);
+}
+
+.wrapper .text span a{
+   color: rgb(22, 83, 169);
+   font-weight: bold;
+   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
