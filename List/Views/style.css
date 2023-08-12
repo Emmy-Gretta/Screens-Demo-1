@@ -139,12 +139,35 @@ img{
    margin-right: 15px;
 } */
 
+.sidebar-items{
+   display: flex;
+}
 
+.below-list{
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+}
 
- 
+.below-list a{
+   margin-bottom: 20px;
+}
 
+.above-list{
+   display: flex;
+   flex-direction: column;
+   margin-top: 100px;
+}
 
+.above-list a{
+   margin-bottom: 20px;
+}
 
-
-
- 
+.sidebar-items hr{
+   position: relative;
+   margin-top: 370px;
+   margin-bottom: 50px;
+}
